@@ -4,23 +4,9 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇨🇭 CH 01 - xiaohe
+- name: 🇦🇹 AT 01 - xiaohe
   type: vless
-  server: 138.124.96.173
-  port: 443
-  uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box-rq3.pages.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box-rq3.pages.dev
-- name: 🇨🇭 CH 02 - xiaohe
-  type: vless
-  server: 138.124.244.176
+  server: 62.60.239.231
   port: 443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
@@ -37,14 +23,12 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇨🇭 CH 01 - xiaohe
-  - 🇨🇭 CH 02 - xiaohe
+  - 🇦🇹 AT 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇨🇭 CH 01 - xiaohe
-  - 🇨🇭 CH 02 - xiaohe
+  - 🇦🇹 AT 01 - xiaohe
 rules:
 - MATCH,PROXIES

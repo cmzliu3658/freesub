@@ -4,9 +4,9 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇳🇴 NO 01 - xiaohe
+- name: 🇪🇪 EE 01 - xiaohe
   type: vless
-  server: 80.78.31.117
+  server: 87.121.86.93
   port: 443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
@@ -23,12 +23,12 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇳🇴 NO 01 - xiaohe
+  - 🇪🇪 EE 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇳🇴 NO 01 - xiaohe
+  - 🇪🇪 EE 01 - xiaohe
 rules:
 - MATCH,PROXIES

@@ -6,8 +6,8 @@ log-level: info
 proxies:
 - name: 🇫🇷 法国 (France) 01 - xiaohe
   type: vless
-  server: 46.224.182.84
-  port: 443
+  server: 178.104.63.109
+  port: 8443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
   tls: true
@@ -20,7 +20,7 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇫🇷 法国 (France) 02 - xiaohe
   type: vless
-  server: 57.128.183.3
+  server: 77.239.120.77
   port: 443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
@@ -34,7 +34,7 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇫🇷 法国 (France) 03 - xiaohe
   type: vless
-  server: 178.105.162.134
+  server: 91.184.240.196
   port: 443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
@@ -48,36 +48,8 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇫🇷 法国 (France) 04 - xiaohe
   type: vless
-  server: 57.128.176.37
-  port: 443
-  uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box-rq3.pages.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box-rq3.pages.dev
-- name: 🇫🇷 法国 (France) 05 - xiaohe
-  type: vless
-  server: 89.208.113.192
+  server: 46.225.232.103
   port: 8443
-  uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box-rq3.pages.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box-rq3.pages.dev
-- name: 🇫🇷 法国 (France) 06 - xiaohe
-  type: vless
-  server: 5.75.197.238
-  port: 443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
   tls: true
@@ -97,8 +69,6 @@ proxy-groups:
   - 🇫🇷 法国 (France) 02 - xiaohe
   - 🇫🇷 法国 (France) 03 - xiaohe
   - 🇫🇷 法国 (France) 04 - xiaohe
-  - 🇫🇷 法国 (France) 05 - xiaohe
-  - 🇫🇷 法国 (France) 06 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -108,7 +78,5 @@ proxy-groups:
   - 🇫🇷 法国 (France) 02 - xiaohe
   - 🇫🇷 法国 (France) 03 - xiaohe
   - 🇫🇷 法国 (France) 04 - xiaohe
-  - 🇫🇷 法国 (France) 05 - xiaohe
-  - 🇫🇷 法国 (France) 06 - xiaohe
 rules:
 - MATCH,PROXIES

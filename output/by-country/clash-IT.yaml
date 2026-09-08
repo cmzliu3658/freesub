@@ -6,8 +6,8 @@ log-level: info
 proxies:
 - name: 🇮🇹 意大利 (Italy) 01 - xiaohe
   type: vless
-  server: 89.22.229.170
-  port: 2053
+  server: 213.176.116.141
+  port: 443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
   tls: true
@@ -20,7 +20,7 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇮🇹 意大利 (Italy) 02 - xiaohe
   type: vless
-  server: 109.120.137.148
+  server: 62.60.251.214
   port: 8443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
@@ -34,91 +34,7 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇮🇹 意大利 (Italy) 03 - xiaohe
   type: vless
-  server: 109.120.187.173
-  port: 8443
-  uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box-rq3.pages.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box-rq3.pages.dev
-- name: 🇮🇹 意大利 (Italy) 04 - xiaohe
-  type: vless
-  server: 62.60.153.23
-  port: 443
-  uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box-rq3.pages.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box-rq3.pages.dev
-- name: 🇮🇹 意大利 (Italy) 05 - xiaohe
-  type: vless
-  server: 77.110.96.142
-  port: 443
-  uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box-rq3.pages.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box-rq3.pages.dev
-- name: 🇮🇹 意大利 (Italy) 06 - xiaohe
-  type: vless
-  server: 62.60.250.200
-  port: 443
-  uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box-rq3.pages.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box-rq3.pages.dev
-- name: 🇮🇹 意大利 (Italy) 07 - xiaohe
-  type: vless
-  server: 209.38.199.164
-  port: 443
-  uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box-rq3.pages.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box-rq3.pages.dev
-- name: 🇮🇹 意大利 (Italy) 08 - xiaohe
-  type: vless
-  server: 89.22.233.52
-  port: 443
-  uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box-rq3.pages.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box-rq3.pages.dev
-- name: 🇮🇹 意大利 (Italy) 09 - xiaohe
-  type: vless
-  server: 62.60.251.57
+  server: 46.226.165.199
   port: 443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
@@ -138,12 +54,6 @@ proxy-groups:
   - 🇮🇹 意大利 (Italy) 01 - xiaohe
   - 🇮🇹 意大利 (Italy) 02 - xiaohe
   - 🇮🇹 意大利 (Italy) 03 - xiaohe
-  - 🇮🇹 意大利 (Italy) 04 - xiaohe
-  - 🇮🇹 意大利 (Italy) 05 - xiaohe
-  - 🇮🇹 意大利 (Italy) 06 - xiaohe
-  - 🇮🇹 意大利 (Italy) 07 - xiaohe
-  - 🇮🇹 意大利 (Italy) 08 - xiaohe
-  - 🇮🇹 意大利 (Italy) 09 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -152,11 +62,5 @@ proxy-groups:
   - 🇮🇹 意大利 (Italy) 01 - xiaohe
   - 🇮🇹 意大利 (Italy) 02 - xiaohe
   - 🇮🇹 意大利 (Italy) 03 - xiaohe
-  - 🇮🇹 意大利 (Italy) 04 - xiaohe
-  - 🇮🇹 意大利 (Italy) 05 - xiaohe
-  - 🇮🇹 意大利 (Italy) 06 - xiaohe
-  - 🇮🇹 意大利 (Italy) 07 - xiaohe
-  - 🇮🇹 意大利 (Italy) 08 - xiaohe
-  - 🇮🇹 意大利 (Italy) 09 - xiaohe
 rules:
 - MATCH,PROXIES

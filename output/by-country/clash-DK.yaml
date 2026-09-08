@@ -6,36 +6,8 @@ log-level: info
 proxies:
 - name: 🇩🇰 DK 01 - xiaohe
   type: vless
-  server: 148.253.211.49
-  port: 443
-  uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box-rq3.pages.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box-rq3.pages.dev
-- name: 🇩🇰 DK 02 - xiaohe
-  type: vless
   server: 89.127.201.202
   port: 443
-  uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box-rq3.pages.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box-rq3.pages.dev
-- name: 🇩🇰 DK 03 - xiaohe
-  type: vless
-  server: 213.21.240.183
-  port: 8443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
   tls: true
@@ -52,15 +24,11 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇩🇰 DK 01 - xiaohe
-  - 🇩🇰 DK 02 - xiaohe
-  - 🇩🇰 DK 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇩🇰 DK 01 - xiaohe
-  - 🇩🇰 DK 02 - xiaohe
-  - 🇩🇰 DK 03 - xiaohe
 rules:
 - MATCH,PROXIES

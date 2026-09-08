@@ -6,8 +6,8 @@ log-level: info
 proxies:
 - name: 🇫🇮 FI 01 - xiaohe
   type: vless
-  server: 45.136.175.196
-  port: 443
+  server: 95.216.168.240
+  port: 8443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
   tls: true
@@ -20,8 +20,8 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇫🇮 FI 02 - xiaohe
   type: vless
-  server: 46.17.106.121
-  port: 443
+  server: 94.156.116.92
+  port: 8443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
   tls: true
@@ -34,7 +34,7 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇫🇮 FI 03 - xiaohe
   type: vless
-  server: 62.238.35.47
+  server: 46.38.156.183
   port: 443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
@@ -48,8 +48,8 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇫🇮 FI 04 - xiaohe
   type: vless
-  server: 95.217.176.149
-  port: 8443
+  server: 193.187.151.138
+  port: 443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
   tls: true
@@ -62,8 +62,8 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇫🇮 FI 05 - xiaohe
   type: vless
-  server: 45.131.185.49
-  port: 443
+  server: 84.22.150.244
+  port: 8443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
   tls: true
@@ -76,8 +76,8 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇫🇮 FI 06 - xiaohe
   type: vless
-  server: 208.123.190.224
-  port: 8443
+  server: 2.26.9.47
+  port: 443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
   tls: true
@@ -90,8 +90,8 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇫🇮 FI 07 - xiaohe
   type: vless
-  server: 65.109.217.214
-  port: 2053
+  server: 151.241.234.84
+  port: 8443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
   tls: true
@@ -104,8 +104,8 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇫🇮 FI 08 - xiaohe
   type: vless
-  server: 37.27.186.20
-  port: 8443
+  server: 65.21.237.142
+  port: 443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
   tls: true
@@ -118,7 +118,7 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇫🇮 FI 09 - xiaohe
   type: vless
-  server: 64.188.93.41
+  server: 89.125.210.106
   port: 443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
@@ -132,8 +132,8 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇫🇮 FI 10 - xiaohe
   type: vless
-  server: 37.27.90.102
-  port: 8443
+  server: 92.42.102.39
+  port: 443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
   tls: true
@@ -146,7 +146,7 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇫🇮 FI 11 - xiaohe
   type: vless
-  server: 45.9.74.14
+  server: 65.21.157.194
   port: 8443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
@@ -160,8 +160,8 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇫🇮 FI 12 - xiaohe
   type: vless
-  server: 31.76.102.160
-  port: 8443
+  server: 77.110.120.16
+  port: 443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
   tls: true
@@ -174,7 +174,7 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇫🇮 FI 13 - xiaohe
   type: vless
-  server: 195.66.87.115
+  server: 185.246.191.40
   port: 443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
@@ -188,7 +188,7 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇫🇮 FI 14 - xiaohe
   type: vless
-  server: 194.48.143.96
+  server: 135.181.250.100
   port: 8443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
@@ -202,8 +202,8 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇫🇮 FI 15 - xiaohe
   type: vless
-  server: 185.250.181.147
-  port: 8443
+  server: 95.217.216.100
+  port: 443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
   tls: true
@@ -216,7 +216,7 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇫🇮 FI 16 - xiaohe
   type: vless
-  server: 62.60.254.44
+  server: 163.5.153.133
   port: 443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
@@ -230,7 +230,7 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇫🇮 FI 17 - xiaohe
   type: vless
-  server: 79.137.248.243
+  server: 65.109.130.162
   port: 443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
@@ -244,8 +244,8 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇫🇮 FI 18 - xiaohe
   type: vless
-  server: 144.31.232.93
-  port: 443
+  server: 138.124.49.50
+  port: 8443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
   tls: true
@@ -258,8 +258,8 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇫🇮 FI 19 - xiaohe
   type: vless
-  server: 45.9.74.189
-  port: 8443
+  server: 138.124.59.252
+  port: 443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
   tls: true
@@ -272,8 +272,8 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇫🇮 FI 20 - xiaohe
   type: vless
-  server: 194.53.54.84
-  port: 8443
+  server: 77.91.78.17
+  port: 443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
   tls: true
@@ -286,8 +286,8 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇫🇮 FI 21 - xiaohe
   type: vless
-  server: 109.107.190.36
-  port: 2053
+  server: 62.238.9.203
+  port: 443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
   tls: true
@@ -300,8 +300,8 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇫🇮 FI 22 - xiaohe
   type: vless
-  server: 2.26.116.135
-  port: 443
+  server: 65.109.176.130
+  port: 2053
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
   tls: true
@@ -314,8 +314,8 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇫🇮 FI 23 - xiaohe
   type: vless
-  server: 91.149.219.175
-  port: 443
+  server: 151.245.140.134
+  port: 2087
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
   tls: true
@@ -328,7 +328,7 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇫🇮 FI 24 - xiaohe
   type: vless
-  server: 79.137.248.200
+  server: 89.35.119.210
   port: 443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
@@ -342,7 +342,7 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇫🇮 FI 25 - xiaohe
   type: vless
-  server: 85.192.37.138
+  server: 46.62.146.121
   port: 443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
@@ -356,7 +356,7 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇫🇮 FI 26 - xiaohe
   type: vless
-  server: 185.229.66.149
+  server: 2.27.14.94
   port: 443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
@@ -370,7 +370,7 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇫🇮 FI 27 - xiaohe
   type: vless
-  server: 64.188.107.198
+  server: 89.125.87.69
   port: 8443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
@@ -384,8 +384,8 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇫🇮 FI 28 - xiaohe
   type: vless
-  server: 95.217.237.91
-  port: 443
+  server: 77.91.85.226
+  port: 8443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
   tls: true
@@ -398,8 +398,8 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇫🇮 FI 29 - xiaohe
   type: vless
-  server: 85.192.31.37
-  port: 8443
+  server: 77.91.78.51
+  port: 443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
   tls: true
@@ -412,7 +412,7 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇫🇮 FI 30 - xiaohe
   type: vless
-  server: 185.239.141.120
+  server: 185.9.26.11
   port: 443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
@@ -426,8 +426,8 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇫🇮 FI 31 - xiaohe
   type: vless
-  server: 185.229.65.51
-  port: 443
+  server: 157.180.43.104
+  port: 8443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
   tls: true
@@ -440,8 +440,8 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇫🇮 FI 32 - xiaohe
   type: vless
-  server: 93.123.30.73
-  port: 8443
+  server: 91.149.254.202
+  port: 443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
   tls: true
@@ -454,7 +454,7 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇫🇮 FI 33 - xiaohe
   type: vless
-  server: 212.237.219.73
+  server: 65.108.48.13
   port: 443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
@@ -468,7 +468,7 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇫🇮 FI 34 - xiaohe
   type: vless
-  server: 62.60.236.66
+  server: 185.104.250.9
   port: 443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
@@ -482,7 +482,7 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇫🇮 FI 35 - xiaohe
   type: vless
-  server: 135.181.24.30
+  server: 85.209.156.253
   port: 443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
@@ -496,7 +496,175 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇫🇮 FI 36 - xiaohe
   type: vless
-  server: 85.192.37.95
+  server: 95.216.142.199
+  port: 443
+  uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box-rq3.pages.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box-rq3.pages.dev
+- name: 🇫🇮 FI 37 - xiaohe
+  type: vless
+  server: 94.156.180.80
+  port: 443
+  uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box-rq3.pages.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box-rq3.pages.dev
+- name: 🇫🇮 FI 38 - xiaohe
+  type: vless
+  server: 62.60.255.43
+  port: 443
+  uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box-rq3.pages.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box-rq3.pages.dev
+- name: 🇫🇮 FI 39 - xiaohe
+  type: vless
+  server: 185.202.207.30
+  port: 443
+  uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box-rq3.pages.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box-rq3.pages.dev
+- name: 🇫🇮 FI 40 - xiaohe
+  type: vless
+  server: 85.192.25.132
+  port: 8443
+  uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box-rq3.pages.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box-rq3.pages.dev
+- name: 🇫🇮 FI 41 - xiaohe
+  type: vless
+  server: 179.198.50.32
+  port: 443
+  uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box-rq3.pages.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box-rq3.pages.dev
+- name: 🇫🇮 FI 42 - xiaohe
+  type: vless
+  server: 144.31.71.182
+  port: 8443
+  uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box-rq3.pages.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box-rq3.pages.dev
+- name: 🇫🇮 FI 43 - xiaohe
+  type: vless
+  server: 193.222.97.37
+  port: 443
+  uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box-rq3.pages.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box-rq3.pages.dev
+- name: 🇫🇮 FI 44 - xiaohe
+  type: vless
+  server: 91.186.212.237
+  port: 443
+  uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box-rq3.pages.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box-rq3.pages.dev
+- name: 🇫🇮 FI 45 - xiaohe
+  type: vless
+  server: 193.124.36.16
+  port: 443
+  uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box-rq3.pages.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box-rq3.pages.dev
+- name: 🇫🇮 FI 46 - xiaohe
+  type: vless
+  server: 204.168.212.139
+  port: 443
+  uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box-rq3.pages.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box-rq3.pages.dev
+- name: 🇫🇮 FI 47 - xiaohe
+  type: vless
+  server: 89.125.122.64
+  port: 2053
+  uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box-rq3.pages.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box-rq3.pages.dev
+- name: 🇫🇮 FI 48 - xiaohe
+  type: vless
+  server: 66.151.35.81
   port: 443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
@@ -549,6 +717,18 @@ proxy-groups:
   - 🇫🇮 FI 34 - xiaohe
   - 🇫🇮 FI 35 - xiaohe
   - 🇫🇮 FI 36 - xiaohe
+  - 🇫🇮 FI 37 - xiaohe
+  - 🇫🇮 FI 38 - xiaohe
+  - 🇫🇮 FI 39 - xiaohe
+  - 🇫🇮 FI 40 - xiaohe
+  - 🇫🇮 FI 41 - xiaohe
+  - 🇫🇮 FI 42 - xiaohe
+  - 🇫🇮 FI 43 - xiaohe
+  - 🇫🇮 FI 44 - xiaohe
+  - 🇫🇮 FI 45 - xiaohe
+  - 🇫🇮 FI 46 - xiaohe
+  - 🇫🇮 FI 47 - xiaohe
+  - 🇫🇮 FI 48 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -590,5 +770,17 @@ proxy-groups:
   - 🇫🇮 FI 34 - xiaohe
   - 🇫🇮 FI 35 - xiaohe
   - 🇫🇮 FI 36 - xiaohe
+  - 🇫🇮 FI 37 - xiaohe
+  - 🇫🇮 FI 38 - xiaohe
+  - 🇫🇮 FI 39 - xiaohe
+  - 🇫🇮 FI 40 - xiaohe
+  - 🇫🇮 FI 41 - xiaohe
+  - 🇫🇮 FI 42 - xiaohe
+  - 🇫🇮 FI 43 - xiaohe
+  - 🇫🇮 FI 44 - xiaohe
+  - 🇫🇮 FI 45 - xiaohe
+  - 🇫🇮 FI 46 - xiaohe
+  - 🇫🇮 FI 47 - xiaohe
+  - 🇫🇮 FI 48 - xiaohe
 rules:
 - MATCH,PROXIES
