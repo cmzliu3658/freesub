@@ -1,0 +1,98 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: rule
+log-level: info
+proxies:
+- name: 🇬🇷 GR 01 - xiaohe
+  type: vless
+  server: 91.186.223.190
+  port: 443
+  uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box-rq3.pages.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box-rq3.pages.dev
+- name: 🇬🇷 GR 02 - xiaohe
+  type: vless
+  server: 91.186.218.54
+  port: 443
+  uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box-rq3.pages.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box-rq3.pages.dev
+- name: 🇬🇷 GR 03 - xiaohe
+  type: vless
+  server: 94.241.172.202
+  port: 443
+  uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box-rq3.pages.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box-rq3.pages.dev
+- name: 🇬🇷 GR 04 - xiaohe
+  type: vless
+  server: 91.186.223.139
+  port: 443
+  uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box-rq3.pages.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box-rq3.pages.dev
+- name: 🇬🇷 GR 05 - xiaohe
+  type: vless
+  server: 91.186.212.1
+  port: 8443
+  uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box-rq3.pages.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box-rq3.pages.dev
+proxy-groups:
+- name: PROXIES
+  type: select
+  proxies:
+  - AUTO
+  - 🇬🇷 GR 01 - xiaohe
+  - 🇬🇷 GR 02 - xiaohe
+  - 🇬🇷 GR 03 - xiaohe
+  - 🇬🇷 GR 04 - xiaohe
+  - 🇬🇷 GR 05 - xiaohe
+- name: AUTO
+  type: url-test
+  url: https://www.google.com/generate_204
+  interval: 300
+  proxies:
+  - 🇬🇷 GR 01 - xiaohe
+  - 🇬🇷 GR 02 - xiaohe
+  - 🇬🇷 GR 03 - xiaohe
+  - 🇬🇷 GR 04 - xiaohe
+  - 🇬🇷 GR 05 - xiaohe
+rules:
+- MATCH,PROXIES

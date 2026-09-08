@@ -6,43 +6,29 @@ log-level: info
 proxies:
 - name: 🇦🇺 澳大利亚 (Australia) 01 - xiaohe
   type: vless
-  server: 103.75.119.126
-  port: 2087
-  uuid: 731f177e-00aa-480c-b935-661456139a32
+  server: 82.115.25.43
+  port: 443
+  uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: box-rq3.pages.dev
   network: ws
   ws-opts:
-    path: /7586c69d3dc9
+    path: /?ed=2048
     headers:
-      Host: 103.75.119.126
-- name: 🇦🇺 澳大利亚 (Australia) 02 - xiaohe
-  type: vless
-  server: 103.75.119.126
-  port: 2087
-  uuid: 731f177e-00aa-480c-b935-661456139a32
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /7586c69d3dc9
-    headers:
-      Host: 103.75.119.126
+      Host: box-rq3.pages.dev
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇦🇺 澳大利亚 (Australia) 01 - xiaohe
-  - 🇦🇺 澳大利亚 (Australia) 02 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇦🇺 澳大利亚 (Australia) 01 - xiaohe
-  - 🇦🇺 澳大利亚 (Australia) 02 - xiaohe
 rules:
 - MATCH,PROXIES
