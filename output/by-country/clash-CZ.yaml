@@ -6,8 +6,8 @@ log-level: info
 proxies:
 - name: 🇨🇿 CZ 01 - xiaohe
   type: vless
-  server: 88.198.149.98
-  port: 443
+  server: 178.105.253.169
+  port: 8443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
   tls: true
@@ -20,8 +20,8 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇨🇿 CZ 02 - xiaohe
   type: vless
-  server: 46.224.170.194
-  port: 8443
+  server: 91.107.178.48
+  port: 2053
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
   tls: true
@@ -34,8 +34,8 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇨🇿 CZ 03 - xiaohe
   type: vless
-  server: 136.243.86.88
-  port: 2053
+  server: 194.87.44.22
+  port: 443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
   tls: true
@@ -48,8 +48,8 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇨🇿 CZ 04 - xiaohe
   type: vless
-  server: 95.182.95.75
-  port: 443
+  server: 178.105.31.0
+  port: 2096
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
   tls: true
@@ -62,8 +62,8 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇨🇿 CZ 05 - xiaohe
   type: vless
-  server: 116.202.14.249
-  port: 8443
+  server: 178.104.176.97
+  port: 443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
   tls: true
@@ -76,7 +76,7 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇨🇿 CZ 06 - xiaohe
   type: vless
-  server: 194.58.39.222
+  server: 167.233.79.84
   port: 443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
@@ -90,50 +90,8 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇨🇿 CZ 07 - xiaohe
   type: vless
-  server: 178.105.65.222
-  port: 443
-  uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box-rq3.pages.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box-rq3.pages.dev
-- name: 🇨🇿 CZ 08 - xiaohe
-  type: vless
-  server: 148.251.4.190
+  server: 136.243.86.79
   port: 2053
-  uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box-rq3.pages.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box-rq3.pages.dev
-- name: 🇨🇿 CZ 09 - xiaohe
-  type: vless
-  server: 167.233.140.231
-  port: 443
-  uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box-rq3.pages.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box-rq3.pages.dev
-- name: 🇨🇿 CZ 10 - xiaohe
-  type: vless
-  server: 195.133.63.147
-  port: 443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
   tls: true
@@ -156,9 +114,6 @@ proxy-groups:
   - 🇨🇿 CZ 05 - xiaohe
   - 🇨🇿 CZ 06 - xiaohe
   - 🇨🇿 CZ 07 - xiaohe
-  - 🇨🇿 CZ 08 - xiaohe
-  - 🇨🇿 CZ 09 - xiaohe
-  - 🇨🇿 CZ 10 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -171,8 +126,5 @@ proxy-groups:
   - 🇨🇿 CZ 05 - xiaohe
   - 🇨🇿 CZ 06 - xiaohe
   - 🇨🇿 CZ 07 - xiaohe
-  - 🇨🇿 CZ 08 - xiaohe
-  - 🇨🇿 CZ 09 - xiaohe
-  - 🇨🇿 CZ 10 - xiaohe
 rules:
 - MATCH,PROXIES
