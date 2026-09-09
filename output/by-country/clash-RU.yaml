@@ -6,78 +6,8 @@ log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
   type: vless
-  server: 85.204.240.97
-  port: 2096
-  uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box-rq3.pages.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box-rq3.pages.dev
-- name: 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
-  type: vless
-  server: 89.19.217.85
+  server: 23.147.172.135
   port: 443
-  uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box-rq3.pages.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box-rq3.pages.dev
-- name: 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
-  type: vless
-  server: 80.66.78.207
-  port: 443
-  uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box-rq3.pages.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box-rq3.pages.dev
-- name: 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
-  type: vless
-  server: 89.19.214.216
-  port: 2087
-  uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box-rq3.pages.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box-rq3.pages.dev
-- name: 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
-  type: vless
-  server: 130.49.176.227
-  port: 8443
-  uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box-rq3.pages.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box-rq3.pages.dev
-- name: 🇷🇺 俄罗斯 (Russia) 06 - xiaohe
-  type: vless
-  server: 147.78.181.190
-  port: 8443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
   tls: true
@@ -94,21 +24,11 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 06 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 06 - xiaohe
 rules:
 - MATCH,PROXIES
