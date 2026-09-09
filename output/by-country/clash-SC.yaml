@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇸🇨 SC 01 - xiaohe
   type: vless
-  server: 45.202.242.128
+  server: 156.226.168.206
   port: 443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
@@ -20,7 +20,7 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇸🇨 SC 02 - xiaohe
   type: vless
-  server: 45.202.240.234
+  server: 45.202.242.132
   port: 443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
@@ -34,7 +34,7 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇸🇨 SC 03 - xiaohe
   type: vless
-  server: 45.202.241.67
+  server: 45.202.242.128
   port: 443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
@@ -48,7 +48,7 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇸🇨 SC 04 - xiaohe
   type: vless
-  server: 45.202.240.107
+  server: 156.226.174.20
   port: 443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
@@ -62,7 +62,7 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇸🇨 SC 05 - xiaohe
   type: vless
-  server: 45.202.240.132
+  server: 45.202.240.60
   port: 443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
@@ -76,7 +76,7 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇸🇨 SC 06 - xiaohe
   type: vless
-  server: 45.202.243.92
+  server: 156.226.168.252
   port: 443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
@@ -104,7 +104,7 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇸🇨 SC 08 - xiaohe
   type: vless
-  server: 45.202.243.88
+  server: 45.202.240.234
   port: 443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
@@ -118,7 +118,7 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇸🇨 SC 09 - xiaohe
   type: vless
-  server: 45.202.240.202
+  server: 45.202.243.92
   port: 443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
@@ -132,7 +132,7 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇸🇨 SC 10 - xiaohe
   type: vless
-  server: 156.226.175.115
+  server: 45.202.243.88
   port: 443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
@@ -146,7 +146,7 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇸🇨 SC 11 - xiaohe
   type: vless
-  server: 45.202.241.10
+  server: 45.202.241.185
   port: 443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
@@ -160,7 +160,7 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇸🇨 SC 12 - xiaohe
   type: vless
-  server: 45.202.240.60
+  server: 45.202.243.33
   port: 443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
@@ -174,7 +174,7 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇸🇨 SC 13 - xiaohe
   type: vless
-  server: 156.226.174.20
+  server: 45.202.240.202
   port: 443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
@@ -188,7 +188,35 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇸🇨 SC 14 - xiaohe
   type: vless
-  server: 156.226.168.206
+  server: 45.202.241.67
+  port: 443
+  uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box-rq3.pages.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box-rq3.pages.dev
+- name: 🇸🇨 SC 15 - xiaohe
+  type: vless
+  server: 45.202.241.225
+  port: 443
+  uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box-rq3.pages.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box-rq3.pages.dev
+- name: 🇸🇨 SC 16 - xiaohe
+  type: vless
+  server: 45.202.240.107
   port: 443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
@@ -219,6 +247,8 @@ proxy-groups:
   - 🇸🇨 SC 12 - xiaohe
   - 🇸🇨 SC 13 - xiaohe
   - 🇸🇨 SC 14 - xiaohe
+  - 🇸🇨 SC 15 - xiaohe
+  - 🇸🇨 SC 16 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -238,5 +268,7 @@ proxy-groups:
   - 🇸🇨 SC 12 - xiaohe
   - 🇸🇨 SC 13 - xiaohe
   - 🇸🇨 SC 14 - xiaohe
+  - 🇸🇨 SC 15 - xiaohe
+  - 🇸🇨 SC 16 - xiaohe
 rules:
 - MATCH,PROXIES

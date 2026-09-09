@@ -6,16 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇦 加拿大 (Canada) 01 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 02 - xiaohe"
+        "🇫🇷 法国 (France) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇦 加拿大 (Canada) 01 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 02 - xiaohe"
+        "🇫🇷 法国 (France) 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },

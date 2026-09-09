@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇩🇪 德国 (Germany) 01 - xiaohe
   type: vless
-  server: 189.24.106.196
+  server: 156.226.175.115
   port: 443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
@@ -20,7 +20,7 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇩🇪 德国 (Germany) 02 - xiaohe
   type: vless
-  server: 156.226.175.115
+  server: 45.147.49.149
   port: 443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
@@ -34,8 +34,8 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇩🇪 德国 (Germany) 03 - xiaohe
   type: vless
-  server: 185.217.108.229
-  port: 23351
+  server: 194.169.54.16
+  port: 8443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
   tls: true
@@ -48,7 +48,7 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇩🇪 德国 (Germany) 04 - xiaohe
   type: vless
-  server: 45.147.49.149
+  server: 189.24.106.196
   port: 443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
@@ -62,7 +62,7 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇩🇪 德国 (Germany) 05 - xiaohe
   type: vless
-  server: 45.202.241.225
+  server: 156.226.175.115
   port: 443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
@@ -76,36 +76,8 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇩🇪 德国 (Germany) 06 - xiaohe
   type: vless
-  server: 194.169.54.16
-  port: 8443
-  uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box-rq3.pages.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box-rq3.pages.dev
-- name: 🇩🇪 德国 (Germany) 07 - xiaohe
-  type: vless
-  server: 64.118.159.219
-  port: 443
-  uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box-rq3.pages.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box-rq3.pages.dev
-- name: 🇩🇪 德国 (Germany) 08 - xiaohe
-  type: vless
-  server: 156.226.174.20
-  port: 443
+  server: 185.217.108.229
+  port: 23351
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
   tls: true
@@ -127,8 +99,6 @@ proxy-groups:
   - 🇩🇪 德国 (Germany) 04 - xiaohe
   - 🇩🇪 德国 (Germany) 05 - xiaohe
   - 🇩🇪 德国 (Germany) 06 - xiaohe
-  - 🇩🇪 德国 (Germany) 07 - xiaohe
-  - 🇩🇪 德国 (Germany) 08 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -140,7 +110,5 @@ proxy-groups:
   - 🇩🇪 德国 (Germany) 04 - xiaohe
   - 🇩🇪 德国 (Germany) 05 - xiaohe
   - 🇩🇪 德国 (Germany) 06 - xiaohe
-  - 🇩🇪 德国 (Germany) 07 - xiaohe
-  - 🇩🇪 德国 (Germany) 08 - xiaohe
 rules:
 - MATCH,PROXIES

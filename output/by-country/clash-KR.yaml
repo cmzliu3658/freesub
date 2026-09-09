@@ -6,8 +6,8 @@ log-level: info
 proxies:
 - name: 🇰🇷 韩国 (South Korea) 01 - xiaohe
   type: vless
-  server: 168.107.0.210
-  port: 443
+  server: 43.131.247.123
+  port: 8443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
   tls: true
@@ -20,7 +20,7 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇰🇷 韩国 (South Korea) 02 - xiaohe
   type: vless
-  server: 168.110.121.126
+  server: 43.108.46.150
   port: 8443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
@@ -34,7 +34,7 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇰🇷 韩国 (South Korea) 03 - xiaohe
   type: vless
-  server: 152.67.210.234
+  server: 134.185.99.52
   port: 443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
@@ -48,7 +48,7 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇰🇷 韩国 (South Korea) 04 - xiaohe
   type: vless
-  server: 168.110.112.196
+  server: 129.154.50.72
   port: 8443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
@@ -62,7 +62,7 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇰🇷 韩国 (South Korea) 05 - xiaohe
   type: vless
-  server: 134.185.99.52
+  server: 47.80.57.116
   port: 443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
@@ -76,8 +76,8 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇰🇷 韩国 (South Korea) 06 - xiaohe
   type: vless
-  server: 129.154.50.72
-  port: 8443
+  server: 43.155.134.179
+  port: 443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
   tls: true
@@ -90,7 +90,7 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇰🇷 韩国 (South Korea) 07 - xiaohe
   type: vless
-  server: 129.154.50.72
+  server: 168.110.112.196
   port: 8443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
@@ -104,7 +104,7 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇰🇷 韩国 (South Korea) 08 - xiaohe
   type: vless
-  server: 152.67.198.36
+  server: 168.107.0.210
   port: 443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
@@ -118,22 +118,8 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇰🇷 韩国 (South Korea) 09 - xiaohe
   type: vless
-  server: 152.67.208.47
-  port: 443
-  uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box-rq3.pages.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box-rq3.pages.dev
-- name: 🇰🇷 韩国 (South Korea) 10 - xiaohe
-  type: vless
-  server: 168.107.56.181
-  port: 443
+  server: 43.155.221.27
+  port: 8443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
   tls: true
@@ -158,7 +144,6 @@ proxy-groups:
   - 🇰🇷 韩国 (South Korea) 07 - xiaohe
   - 🇰🇷 韩国 (South Korea) 08 - xiaohe
   - 🇰🇷 韩国 (South Korea) 09 - xiaohe
-  - 🇰🇷 韩国 (South Korea) 10 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -173,6 +158,5 @@ proxy-groups:
   - 🇰🇷 韩国 (South Korea) 07 - xiaohe
   - 🇰🇷 韩国 (South Korea) 08 - xiaohe
   - 🇰🇷 韩国 (South Korea) 09 - xiaohe
-  - 🇰🇷 韩国 (South Korea) 10 - xiaohe
 rules:
 - MATCH,PROXIES
