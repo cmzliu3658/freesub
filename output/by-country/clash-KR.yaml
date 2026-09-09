@@ -4,9 +4,9 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe
+- name: 🇰🇷 韩国 (South Korea) 01 - xiaohe
   type: vless
-  server: 68.64.183.37
+  server: 168.107.0.210
   port: 443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
@@ -18,37 +18,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box-rq3.pages.dev
-- name: 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - xiaohe
+- name: 🇰🇷 韩国 (South Korea) 02 - xiaohe
   type: vless
-  server: 209.33.166.49
-  port: 443
-  uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box-rq3.pages.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box-rq3.pages.dev
-- name: 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - xiaohe
-  type: vless
-  server: 91.213.186.189
-  port: 443
-  uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box-rq3.pages.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box-rq3.pages.dev
-- name: 🇭🇰 中国香港 (Hong Kong) 04 (家宽) - xiaohe
-  type: vless
-  server: 45.153.130.61
+  server: 168.110.121.126
   port: 8443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
@@ -60,9 +32,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box-rq3.pages.dev
-- name: 🇭🇰 中国香港 (Hong Kong) 05 (家宽) - xiaohe
+- name: 🇰🇷 韩国 (South Korea) 03 - xiaohe
   type: vless
-  server: 207.57.134.29
+  server: 152.67.210.234
   port: 443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
@@ -74,9 +46,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box-rq3.pages.dev
-- name: 🇭🇰 中国香港 (Hong Kong) 06 (家宽) - xiaohe
+- name: 🇰🇷 韩国 (South Korea) 04 - xiaohe
   type: vless
-  server: 108.165.255.238
+  server: 168.110.112.196
   port: 8443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
@@ -88,9 +60,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box-rq3.pages.dev
-- name: 🇭🇰 中国香港 (Hong Kong) 07 (家宽) - xiaohe
+- name: 🇰🇷 韩国 (South Korea) 05 - xiaohe
   type: vless
-  server: 43.247.134.129
+  server: 134.185.99.52
   port: 443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
@@ -102,9 +74,65 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box-rq3.pages.dev
-- name: 🇭🇰 中国香港 (Hong Kong) 08 (家宽) - xiaohe
+- name: 🇰🇷 韩国 (South Korea) 06 - xiaohe
   type: vless
-  server: 185.206.171.53
+  server: 129.154.50.72
+  port: 8443
+  uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box-rq3.pages.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box-rq3.pages.dev
+- name: 🇰🇷 韩国 (South Korea) 07 - xiaohe
+  type: vless
+  server: 129.154.50.72
+  port: 8443
+  uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box-rq3.pages.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box-rq3.pages.dev
+- name: 🇰🇷 韩国 (South Korea) 08 - xiaohe
+  type: vless
+  server: 152.67.198.36
+  port: 443
+  uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box-rq3.pages.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box-rq3.pages.dev
+- name: 🇰🇷 韩国 (South Korea) 09 - xiaohe
+  type: vless
+  server: 152.67.208.47
+  port: 443
+  uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box-rq3.pages.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box-rq3.pages.dev
+- name: 🇰🇷 韩国 (South Korea) 10 - xiaohe
+  type: vless
+  server: 168.107.56.181
   port: 443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
@@ -121,26 +149,30 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 04 (家宽) - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 05 (家宽) - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 06 (家宽) - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 07 (家宽) - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 08 (家宽) - xiaohe
+  - 🇰🇷 韩国 (South Korea) 01 - xiaohe
+  - 🇰🇷 韩国 (South Korea) 02 - xiaohe
+  - 🇰🇷 韩国 (South Korea) 03 - xiaohe
+  - 🇰🇷 韩国 (South Korea) 04 - xiaohe
+  - 🇰🇷 韩国 (South Korea) 05 - xiaohe
+  - 🇰🇷 韩国 (South Korea) 06 - xiaohe
+  - 🇰🇷 韩国 (South Korea) 07 - xiaohe
+  - 🇰🇷 韩国 (South Korea) 08 - xiaohe
+  - 🇰🇷 韩国 (South Korea) 09 - xiaohe
+  - 🇰🇷 韩国 (South Korea) 10 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 04 (家宽) - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 05 (家宽) - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 06 (家宽) - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 07 (家宽) - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 08 (家宽) - xiaohe
+  - 🇰🇷 韩国 (South Korea) 01 - xiaohe
+  - 🇰🇷 韩国 (South Korea) 02 - xiaohe
+  - 🇰🇷 韩国 (South Korea) 03 - xiaohe
+  - 🇰🇷 韩国 (South Korea) 04 - xiaohe
+  - 🇰🇷 韩国 (South Korea) 05 - xiaohe
+  - 🇰🇷 韩国 (South Korea) 06 - xiaohe
+  - 🇰🇷 韩国 (South Korea) 07 - xiaohe
+  - 🇰🇷 韩国 (South Korea) 08 - xiaohe
+  - 🇰🇷 韩国 (South Korea) 09 - xiaohe
+  - 🇰🇷 韩国 (South Korea) 10 - xiaohe
 rules:
 - MATCH,PROXIES
