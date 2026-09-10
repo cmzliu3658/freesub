@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇸🇨 SC 01 - xiaohe
   type: vless
-  server: 154.16.10.93
+  server: 156.226.168.252
   port: 443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
@@ -20,35 +20,7 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇸🇨 SC 02 - xiaohe
   type: vless
-  server: 45.207.156.131
-  port: 443
-  uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box-rq3.pages.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box-rq3.pages.dev
-- name: 🇸🇨 SC 03 - xiaohe
-  type: vless
-  server: 151.242.125.197
-  port: 443
-  uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: box-rq3.pages.dev
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: box-rq3.pages.dev
-- name: 🇸🇨 SC 04 - xiaohe
-  type: vless
-  server: 156.226.168.206
+  server: 141.11.149.89
   port: 443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
@@ -67,8 +39,6 @@ proxy-groups:
   - AUTO
   - 🇸🇨 SC 01 - xiaohe
   - 🇸🇨 SC 02 - xiaohe
-  - 🇸🇨 SC 03 - xiaohe
-  - 🇸🇨 SC 04 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -76,7 +46,5 @@ proxy-groups:
   proxies:
   - 🇸🇨 SC 01 - xiaohe
   - 🇸🇨 SC 02 - xiaohe
-  - 🇸🇨 SC 03 - xiaohe
-  - 🇸🇨 SC 04 - xiaohe
 rules:
 - MATCH,PROXIES
