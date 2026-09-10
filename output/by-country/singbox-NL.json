@@ -6,14 +6,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇫🇷 法国 (France) 01 - xiaohe"
+        "🇳🇱 荷兰 (Netherlands) 01 - xiaohe",
+        "🇳🇱 荷兰 (Netherlands) 02 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇫🇷 法国 (France) 01 - xiaohe"
+        "🇳🇱 荷兰 (Netherlands) 01 - xiaohe",
+        "🇳🇱 荷兰 (Netherlands) 02 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },

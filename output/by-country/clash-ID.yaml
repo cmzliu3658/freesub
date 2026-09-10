@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇮🇩 ID 01 - xiaohe
   type: vless
-  server: 15.232.155.235
+  server: 43.229.254.71
   port: 443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
@@ -20,7 +20,7 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇮🇩 ID 02 - xiaohe
   type: vless
-  server: 43.229.254.71
+  server: 15.232.155.235
   port: 443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true

@@ -4,9 +4,9 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇻🇳 VN 01 - xiaohe
+- name: 🇳🇱 荷兰 (Netherlands) 01 - xiaohe
   type: vless
-  server: 160.25.75.40
+  server: 43.174.218.1
   port: 443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
@@ -18,9 +18,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: box-rq3.pages.dev
-- name: 🇻🇳 VN 02 - xiaohe
+- name: 🇳🇱 荷兰 (Netherlands) 02 - xiaohe
   type: vless
-  server: 160.30.54.63
+  server: 43.169.18.179
   port: 443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
@@ -37,14 +37,14 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇻🇳 VN 01 - xiaohe
-  - 🇻🇳 VN 02 - xiaohe
+  - 🇳🇱 荷兰 (Netherlands) 01 - xiaohe
+  - 🇳🇱 荷兰 (Netherlands) 02 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇻🇳 VN 01 - xiaohe
-  - 🇻🇳 VN 02 - xiaohe
+  - 🇳🇱 荷兰 (Netherlands) 01 - xiaohe
+  - 🇳🇱 荷兰 (Netherlands) 02 - xiaohe
 rules:
 - MATCH,PROXIES
