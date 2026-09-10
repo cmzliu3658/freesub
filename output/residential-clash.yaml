@@ -6,8 +6,8 @@ log-level: info
 proxies:
 - name: 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe
   type: vless
-  server: 185.155.235.35
-  port: 40649
+  server: 43.175.131.30
+  port: 443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
   tls: true
@@ -20,7 +20,7 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - xiaohe
   type: vless
-  server: 156.226.173.183
+  server: 141.11.91.164
   port: 443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
@@ -34,7 +34,7 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - xiaohe
   type: vless
-  server: 141.11.148.138
+  server: 64.90.28.28
   port: 443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
@@ -48,7 +48,7 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇭🇰 中国香港 (Hong Kong) 04 (家宽) - xiaohe
   type: vless
-  server: 64.90.28.28
+  server: 151.242.125.29
   port: 443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
@@ -62,7 +62,7 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇭🇰 中国香港 (Hong Kong) 05 (家宽) - xiaohe
   type: vless
-  server: 156.224.77.87
+  server: 45.149.186.154
   port: 443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
@@ -76,7 +76,7 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇭🇰 中国香港 (Hong Kong) 06 (家宽) - xiaohe
   type: vless
-  server: 141.11.91.16
+  server: 38.207.184.202
   port: 443
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
@@ -90,8 +90,36 @@ proxies:
       Host: box-rq3.pages.dev
 - name: 🇭🇰 中国香港 (Hong Kong) 07 (家宽) - xiaohe
   type: vless
-  server: 38.207.184.202
+  server: 45.39.199.233
   port: 443
+  uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box-rq3.pages.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box-rq3.pages.dev
+- name: 🇭🇰 中国香港 (Hong Kong) 08 (家宽) - xiaohe
+  type: vless
+  server: 141.11.91.16
+  port: 443
+  uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: box-rq3.pages.dev
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: box-rq3.pages.dev
+- name: 🇭🇰 中国香港 (Hong Kong) 09 (家宽) - xiaohe
+  type: vless
+  server: 193.134.211.85
+  port: 6400
   uuid: 3ab82e4b-50b7-46b0-bdb2-dd4322037516
   udp: true
   tls: true
@@ -114,6 +142,8 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 05 (家宽) - xiaohe
   - 🇭🇰 中国香港 (Hong Kong) 06 (家宽) - xiaohe
   - 🇭🇰 中国香港 (Hong Kong) 07 (家宽) - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 08 (家宽) - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 09 (家宽) - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -126,5 +156,7 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 05 (家宽) - xiaohe
   - 🇭🇰 中国香港 (Hong Kong) 06 (家宽) - xiaohe
   - 🇭🇰 中国香港 (Hong Kong) 07 (家宽) - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 08 (家宽) - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 09 (家宽) - xiaohe
 rules:
 - MATCH,PROXIES
